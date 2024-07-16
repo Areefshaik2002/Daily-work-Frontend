@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.pros{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:"Montserrat", sans-serif;
+}
+.bgimg{
+    background: linear-gradient(to right, red,aqua,green,yellow,navy,violet);
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://c02.purpledshub.com/uploads/sites/48/2023/02/why-sky-blue-2db86ae.jpg?w=1200');
+    background-size: cover;
+    background-position: center;
+}
