@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1{
+            width: 80%;
+            position: relative;
+            z-index: 3;
+            color: wheat;
+
+
+        }
+        img{
+            position: absolute;
+            z-index: 0;
+            color: white;
+            width: 50%;
+            height: 50%;
+
+        } */
+         .parent{
+            width: 600px;
+            height: 500px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between;
+            /* align-items:start; */
+            /* flex-wrap: wrap; */
+            /* align-content: space-around; */
+            /* flex-flow: row-reverse wrap-reverse; */
+         }
+         .item{
+            width: 80px;
+            height: 80px;
+        }
+        #one{
+            background-color: brown;
+            flex-shrink: 5;
+            order: 3;
+            align-self:flex-start;
+        }
+        #two{
+            background-color: rgb(251, 159, 21);
+            flex-shrink: 5;
+            order: 2;
+            align-self:center;
+        }
+        #three{
+            background-color: chartreuse;
+            order: 1;
+            align-self: flex-end;
+        }
+       
+       
+       
+    </style>
+</head>
+<body>
+    <!-- <h1>Nature lover</h1>
+    <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="nature image"> -->
+    <div class="parent">
+        <div class="item" id="one">item1</div>
+        <div class="item" id="two">item2</div>
+        <div class="item" id="three">item3</div>
+        <div class="item" id="one">item1</div>
+        <div class="item" id="two">item2</div>
+        <div class="item" id="three">item3</div>
+        <div class="item" id="one">item1</div>
+        <div class="item" id="two">item2</div>
+        <div class="item" id="three">item3</div>
+        
+    </div>
+</body>
+</html>
